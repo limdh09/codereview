@@ -5,7 +5,7 @@
 template <typename T> 
 class TemplatePriorityQueue {
 	private:
-		std::priority_queue<T> storage;
+		std::priority_queue<T> storage_;
 	public:
 		templatePriorityQueue();
 		~templatePriorityQueue();
